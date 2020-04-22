@@ -1,0 +1,179 @@
+.contacts {
+    position: relative;
+    &-block {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        background: #fff;
+        padding: 33px 34px 39px 34px;
+        color: $text-color-dark;
+        &__title {
+            display: block;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 18px;
+            margin-bottom: 7px;
+        }
+        &__adress {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 18px;
+            margin-bottom: 15px;
+            &_first {
+                padding-left: 28px;
+                background: url(../img/icons/contacts-block__location-icon.png) no-repeat left top;
+            }
+            &_second {
+                padding-left: 28px;
+            }
+        }
+        &__phone {
+            margin-bottom: 15px;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 18px;
+            background: url(../img/icons/contacts-block__phone-icon.png) no-repeat left top;
+            padding-left: 28px;
+            &-first {
+                display: block;
+                margin-bottom: 7px;
+            }
+            &-second {
+                margin-bottom: 14px;
+            }
+        }
+        &__cta {
+            margin-bottom: 14px;
+            padding-left: 28px;
+        }
+        &__mail {
+            padding-left: 28px;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 18px;
+            background: url(../img/icons/contacts-block__mail-icon.png) no-repeat left top;
+        }
+    }
+}
+.map {
+    width: 100%;
+    height: 550px;
+}
+@media (max-width: 992px) {
+    .contacts-block {
+        padding: 23px 24px 29px 24px;
+        left: 7%;
+        &__title {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 16px;
+            margin-bottom: 5px;
+        }
+        &__adress {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 16px;
+            margin-bottom: 10px;
+        }
+        &__phone {
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 16px;
+          
+            padding-left: 28px;
+            &-first {
+                display: block;
+                margin-bottom: 5px;
+            }
+            &-second {
+                margin-bottom: 10px;
+            }
+        }
+        &__cta {
+            margin-bottom: 10px;
+        }
+        &__mail {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 16px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .contacts-block {
+        padding: 3px 4px 9px 4px;
+        left: 25%;
+        top: 60%;
+        &__title {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 14px;
+            margin-bottom: 5px;
+        }
+        &__adress {
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 14px;
+            margin-bottom: 5px;
+        }
+        &__phone {
+            margin-bottom: 5px;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 14px;
+            &-first {
+                display: block;
+                margin-bottom: 5px;
+            }
+            &-second {
+                margin-bottom: 5px;
+            }
+        }
+        &__cta {
+            margin-bottom: 5px;
+        }
+        &__mail {
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 14px;
+        }
+    }
+}
+@media (max-width: 480px) {
+    .contacts-block {
+        padding: 1px;
+        left: 1%;
+        top: 60%;
+        border-radius: 2px;
+        &__title {
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 12px;
+            margin-bottom: 2px;
+        }
+        &__adress {
+            font-size: 10px;
+            line-height: 12px;
+            margin-bottom: 2px;
+        }
+        &__phone {
+            margin-bottom: 2px;
+            font-size: 10px;
+            line-height: 12px;
+            &-first {
+                margin-bottom: 2px;
+            }
+            &-second {
+                margin-bottom: 2px;
+            }
+        }
+        &__cta {
+            margin-bottom: 2px;
+        }
+        &__mail {
+            font-size: 10px;
+            line-height: 12px;
+        }
+    }
+}

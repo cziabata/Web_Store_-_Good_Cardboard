@@ -1,0 +1,19 @@
+body {
+    background-color: #fff;
+    font-family: 'Roboto';
+}
+@import '_variables'; 
+@import 'header';
+@import 'button';
+@import 'main-content.scss';
+@import 'modal';
+@import 'features';
+@import 'products';
+@import 'offer';
+@import 'contacts';
+@import 'production';
+@import 'clients';
+@import 'feedback';
+@import 'footer';
+@import 'products-block__modal-window';
+

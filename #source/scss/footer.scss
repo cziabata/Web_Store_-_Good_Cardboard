@@ -1,0 +1,19 @@
+footer {
+    background: #1b1b1b;
+}
+.footer-text {
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 39px;
+    opacity: 0.5;
+    color: $text-color-light;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 17px;
+}
+@media (max-width: 480px) {
+    .footer-text {
+        padding-top: 16px;
+        padding-bottom: 19px;
+    }
+}

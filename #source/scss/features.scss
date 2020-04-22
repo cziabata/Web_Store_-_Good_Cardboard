@@ -1,0 +1,106 @@
+.features {
+    background-color: $light-background-color;
+    padding-top: 49px;
+    padding-bottom: 55px;
+}
+.numbers {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    vertical-align: middle;
+    flex: 30%;
+    margin-bottom: 37px;
+    &-block {
+        &__title {
+            font-size: 36px;
+            font-weight: 900;
+            color: $active-color;
+            margin-bottom: 10px;
+        }
+        &__title sup {
+            font-size: 18px;
+        }
+        &__text {
+            max-width: 266px;
+            font-size: 16px;
+            font-weight: 400;
+            color: $text-color-dark;
+        }
+    }
+}
+.features-blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .features-block {
+        display: flex;
+        flex-basis: 31.5%;
+        align-items: center;
+        background: #fff;
+        padding: 28px 19px;
+        margin-bottom: 30px;
+        &__img {
+            margin-right: 9px;
+        }
+        &__title {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 7px;
+        }
+        &__descr {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 19px; 
+            color: $text-color-dark;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .features-blocks {
+        .features-block {
+            flex-basis: 48%;
+        }
+    }
+    .numbers-block__title {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .numbers-block__title sup {
+        font-size: 14px;
+    }
+}
+@media (max-width: 576px) {
+    .features-blocks {
+        .features-block {
+            flex-basis: 100%;
+        }
+    }
+    .numbers-block__title {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 480px) {
+    .numbers {
+        display: flex;
+        justify-content: space-around;
+        text-align: top;
+        vertical-align: middle;
+        flex: 30%;
+        margin-bottom: 37px;
+    }
+    .numbers-block__title {
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    .numbers-block__title sup {
+        font-size: 10px;
+    }
+    .numbers-block__text {
+        font-size: 12px;
+        font-weight: 300;
+    }
+}
